@@ -152,8 +152,8 @@ imgdlink16 = imglink16
 
 function vidframe(vidframe){
 document.write("<div align=\"center\">");
-document.write("                <h2>"+VidTitle1+"<\/h2>");
 document.write("                <iframe src=\"https:\/\/vshare.io\/v\/"+VlinkEl+"\/width-600\/height-400\/\" width=\"600\" height=\"400\" frameborder=\"0\" scrolling=\"no\" allowfullscreen=\"true\" webkitallowfullscreen=\"true\" mozallowfullscreen=\"true\"><\/iframe>");
+document.write("                <h2>"+VidTitle1+"<\/h2>");
 document.write("            <\/div>");
 };
 
