@@ -180,12 +180,12 @@ document.write( '<a href=\"'+hdlink8+'\" ><img src=\"'+imgdlink8+'\" style=\"wid
 }
 
 function footerJS(){
-document.write( '<a href=\"'+hdlink9+'\" ><img src=\"'+imgdlink9+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink10+'\" ><img src=\"'+imgdlink10+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink11+'\" ><img src=\"'+imgdlink11+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink12+'\" ><img src=\"'+imgdlink12+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink13+'\" ><img src=\"'+imgdlink13+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink14+'\" ><img src=\"'+imgdlink14+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink15+'\" ><img src=\"'+imgdlink15+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink16+'\" ><img src=\"'+imgdlink16+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink9+'\" ><img src=\"'+imgdlink9+'\" style=\"width: 240; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink10+'\" ><img src=\"'+imgdlink10+'\" style=\"width: 240; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink11+'\" ><img src=\"'+imgdlink11+'\" style=\"width: 240; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink12+'\" ><img src=\"'+imgdlink12+'\" style=\"width: 240; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink13+'\" ><img src=\"'+imgdlink13+'\" style=\"width: 240; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink14+'\" ><img src=\"'+imgdlink14+'\" style=\"width: 240; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink15+'\" ><img src=\"'+imgdlink15+'\" style=\"width: 240; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink16+'\" ><img src=\"'+imgdlink16+'\" style=\"width: 240; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
 }
