@@ -147,7 +147,7 @@ imgdlink16 = imglink16
 function vidframe(vidframe){
 document.write("<div align=\"center\">");
 document.write("                <p>CLICK BELOW TO WATCH VIDEOS<\/p>");
-document.write("                <iframe src=\"https:\/\/vshare.io\/v\/"+VlinkEl+"\/width-450\/height-400\/\" width=\"450\" height=\"400\" frameborder=\"0\" scrolling=\"no\" allowfullscreen=\"true\" webkitallowfullscreen=\"true\" mozallowfullscreen=\"true\"><\/iframe>");
+document.write("                <iframe src=\"https:\/\/vshare.io\/v\/"+VlinkEl+"\/width-600\/height-400\/\" width=\"600\" height=\"400\" frameborder=\"0\" scrolling=\"no\" allowfullscreen=\"true\" webkitallowfullscreen=\"true\" mozallowfullscreen=\"true\"><\/iframe>");
 document.write("            <\/div>");
 };
 
