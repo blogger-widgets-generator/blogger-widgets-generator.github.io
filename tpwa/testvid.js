@@ -166,17 +166,17 @@ document.write("");
 };
 
 function primaryJS(){
-document.write( '<a href=\"'+hdlink1+'\" ><img src=\"'+imgdlink1+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink2+'\" ><img src=\"'+imgdlink2+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink3+'\" ><img src=\"'+imgdlink3+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink4+'\" ><img src=\"'+imgdlink4+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink1+'\" ><img src=\"'+imgdlink1+'\" style=\"width: 240px; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink2+'\" ><img src=\"'+imgdlink2+'\" style=\"width: 240px; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink3+'\" ><img src=\"'+imgdlink3+'\" style=\"width: 240px; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink4+'\" ><img src=\"'+imgdlink4+'\" style=\"width: 240px; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
 }
 
 function secondaryJS(){
-document.write( '<a href=\"'+hdlink5+'\" ><img src=\"'+imgdlink5+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink6+'\" ><img src=\"'+imgdlink6+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink7+'\" ><img src=\"'+imgdlink7+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
-document.write( '<a href=\"'+hdlink8+'\" ><img src=\"'+imgdlink8+'\" style=\"width: 200px; height:130px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink5+'\" ><img src=\"'+imgdlink5+'\" style=\"width: 240px; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink6+'\" ><img src=\"'+imgdlink6+'\" style=\"width: 240px; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink7+'\" ><img src=\"'+imgdlink7+'\" style=\"width: 240px; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
+document.write( '<a href=\"'+hdlink8+'\" ><img src=\"'+imgdlink8+'\" style=\"width: 240px; height:150px;\" alt=\"wait.. IMAGE LOADING......\" ></a>\n' );
 }
 
 function footerJS(){
