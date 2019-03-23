@@ -1,0 +1,112 @@
+.StarsBloggingSocialButtonsBorder {
+margin:0 auto;
+padding:5px;
+width:auto;
+border-radius:5px;
+border: 1px #BBBBBB solid;
+}
+#ttiblog-SexySocialButtons{
+list-style:none;
+text-decoration:none;
+font-size:0.9em;
+font-family:trebuchet ms,sans-serif;
+}
+#ttiblog-SexySocialButtons a{
+text-decoration:none;
+font-family:trebuchet ms,sans-serif;
+}
+#ttiblog-SexySocialButtons li{
+position:relative;
+height:38px;
+cursor:pointer;
+padding: 0 !important;
+}
+#ttiblog-SexySocialButtons .facebook, .googleplus, .YouTube, .rss, .twitter{
+position:relative;
+z-index:5;
+display:block;
+float:none;
+margin:5px 0 0;
+width:210px;
+height:38px;
+border-radius:5px; background:url(http://1.bp.blogspot.com/-JKq0eFFwx34/UGx39fhHO_I/AAAAAAAABE4/56i9phAS2do/s1600/NBT+Sprites+Social+Icons.png) no-repeat;
+background-color:rgba(217,30,118,.42);
+-webkit-box-shadow:rgba(0,0,0,.28) 0 2px 3px;
+-moz-box-shadow:rgba(0,0,0,.28) 0 2px 3px;
+box-shadow:rgba(0,0,0,.28) 0 2px 3px;
+color:#141414;
+text-align:left;
+text-indent:50px;
+text-shadow:#333 0 1px 0;
+white-space:nowrap;
+line-height:32px;
+-webkit-transition:width .25s ease-in-out,background-color .25s ease-in-out;
+-moz-transition:width .25s ease-in-out,background-color .25s ease-in-out;
+-ms-transition:width .25s ease-in-out,background-color .25s ease-in-out;
+-o-transition:width .25s ease-in-out,background-color .25s ease-in-out;
+transition:width .25s ease-in-out,background-color .25s ease-in-out;
+-o-box-shadow:rgba(0,0,0,.28) 0 2px 3px;
+}
+#ttiblog-SexySocialButtons li:after{
+position:absolute;
+top:0;
+left:50px;
+z-index:2;
+display:block;
+height:38px; color:#ffffff;
+content:attr(data-alt);
+line-height:32px;
+}
+#ttiblog-SexySocialButtons .icon{
+overflow:hidden;
+color:#fafafa;
+}
+#ttiblog-SexySocialButtons .facebook{
+width:32px;
+height:32px;
+background-color:rgba(59,89,152,0.42);
+background-position:0 0;
+}
+#ttiblog-SexySocialButtons .twitter{
+width:32px;
+height:32px;
+background-color:rgba(64,153,255,0.42);
+background-position:0 -33px;
+}
+#ttiblog-SexySocialButtons .googleplus{
+width:32px;
+height:32px;
+background-color:rgba(228,69,36,0.42);
+background-position:-3px -66px;
+}
+#ttiblog-SexySocialButtons .YouTube{
+width:32px;
+height:32px;
+background-color:rgba(174,45,39,0.42);
+background-position:-2px -95px;
+}
+#ttiblog-SexySocialButtons .rss{
+width:32px;
+height:32px;
+background-color:rgba(255,102,0,0.42);
+background-position:-3px -126px;
+}
+#ttiblog-SexySocialButtons li:hover .icon,
+.touch #ttiblog-SexySocialButtons li .icon{
+width:210px;
+}
+.touch #ttiblog-SexySocialButtons li .facebook, #ttiblog-SexySocialButtons li:hover .facebook{
+background-color:rgba(59,89,152,1);
+}
+.touch #ttiblog-SexySocialButtons li .twitter, #ttiblog-SexySocialButtons li:hover .twitter{
+background-color:rgba(64,153,255,1);
+}
+.touch #ttiblog-SexySocialButtons li .googleplus, #ttiblog-SexySocialButtons li:hover .googleplus{
+background-color:rgba(228,69,36,1);
+}
+.touch #ttiblog-SexySocialButtons li .YouTube, #ttiblog-SexySocialButtons li:hover .YouTube{
+background-color:rgba(174,45,39,1);
+}
+.touch #ttiblog-SexySocialButtons li .rss, #ttiblog-SexySocialButtons li:hover .rss{
+background-color:rgba(255,102,0,1);
+}
