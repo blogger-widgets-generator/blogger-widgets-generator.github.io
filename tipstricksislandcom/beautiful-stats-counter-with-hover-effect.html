@@ -1,0 +1,127 @@
+<html>
+<head>
+<script type="text/javascript" src="https://blogger-widgets-generator.github.io/tipstricksislandcom/js-colour-picker.js"></script>
+<title>NEW BLOGGER STATS COUNTER WITH HOVER EFFECT</title>
+        <style rel="text/css">
+            .ttibox {
+                border: 3px solid #CF152A;
+                border-radius: 10px;
+                padding: 10px;
+                width: 95%;
+                font-family: inherit;
+                background:#91D5B3;
+                text-align: center;
+            }
+            .ttiredi {
+                -moz-border-radius: 8px;
+                -webkit-border-radius: 8px;
+            }
+            .text-input, .select-box{
+	margin:0 2px;
+	padding:4px 6px;
+	border: 1px solid #F9780E;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-family: gergia;
+	font-style: italic;
+
+	-webkit-box-shadow: 1px 1px 1px #FC7507;
+	-moz-box-shadow: 1px 1px 1px #FC7507;
+	box-shadow: 1px 1px 1px #FC7507;
+	font-size: 14px;
+	color: #666;
+	max-width:auto;
+}
+
+.textarea-box, .textareaBox{
+	border:1px solid #F9780E;
+	padding:6px;
+	-webkit-resize: none;
+	-moz-resize: none;
+	resize: none;
+	-webkit-box-shadow: 1px 1px 1px #dfdfdf;
+	-moz-box-shadow: 1px 1px 1px #dfdfdf;
+	box-shadow: 1px 1px 1px #dfdfdf;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.textareaBox{
+	display:block;
+	width:90%;
+	padding:10px;
+	max-width:98%;
+	margin:20px auto;
+	max-height:600px;
+	min-height:300px;
+}
+
+			body { font-family: Verdana, Arial;margin: 0;padding: 0;text-align: left;font-size:18px;
+}
+
+label       { font-family: Verdana, Arial;margin: 0;padding: 0;text-align: left;font-size:15px; font-weight:bold; }
+
+fieldset    { padding:0 1.4em 1.4em 1.4em; margin: 0 0 1.5em 0; border: 1px solid #ccc; }
+			#outer-wrapper {font-family: Verdana, Arial;}
+			#content-wrapper { width: 98%; max-widtd:980px;  margin: 0 auto;  padding: 5px;  text-align: left; 
+background:#ffffff;
+}
+        </style>
+		<script type='text/javascript'>
+function tipstricksislandcodegen() {
+  var tticolor = document.getElementsByName('colorbox')[0].value;
+  var tticolorh = document.getElementsByName('colorboxh')[0].value;
+  var ttibskn = document.getElementsByName('widget.bskin')[0];
+  var ttiwidget = document.getElementsByName('widget.content')[0];
+ttibskn.value = "#Stats1 ul{margin:0px 0;border:0;padding:0}\r\n#Stats1 li{display:inline;width:15%;margin:0;border:0;background-color:#fff;background:#"+ tticolor +";color:#fff;float:left;padding:5px 7px;text-decoration:none;text-shadow:none;margin:0 1px 1px 0;font-size:12px;list-style-type:none}\r\n#Stats1 h4{margin:0;font-size:18px;line-height:1.2em;color:#fff;text-shadow:none}\r\n#Stats1 span{font-size:12px;color:#fff;text-shadow:none}\r\n#Stats1 li:hover{background:#"+ tticolorh +";}\r\n#totalComments{background-position:0 -68px}\r\n#totalCount{background-position:0 -136px}";
+ttiwidget.value = "<b:widget id=\'Stats1\' locked=\'false\' title=\'\' type=\'Stats\'>\r\n  <b:includable id=\'main\'>\r\n<b:if cond=\'data:title\'><h2><data:title\/><\/h2><\/b:if>\r\n    <div class=\'widget-content\'>\r\n      <ul>\r\n        <li>\r\n          <h4 id=\'Stats1_totalPosts\'>&amp;hellip;<\/h4>\r\n          <span>Posts<\/span>\r\n        <\/li>\r\n        <li id=\'totalComments\'>\r\n          <h4 id=\'Stats1_totalComments\'>&amp;hellip;<\/h4>\r\n          <span>Comments<\/span>\r\n        <\/li>\r\n        <li id=\'totalCount\'>\r\n          <h4 expr:id=\'data:widget.instanceId + &quot;_totalCount&quot;\'>&amp;hellip;<\/h4>\r\n          <span>Pageviews<\/span>\r\n        <\/li>\r\n      <\/ul>\r\n      <script type=\'text\/javascript\'>\r\n\/\/<![CDATA[\r\nfunction totalPosts(json){document.getElementById(\'Stats1_totalPosts\').innerHTML=json.feed.openSearch$totalResults.$t};function totalComments(json){document.getElementById(\'Stats1_totalComments\').innerHTML=json.feed.openSearch$totalResults.$t};document.write(\'<script type=\\\"text\/javascript\\\" src=\\\"\/feeds\/posts\/default?alt=json-in-script&max-results=0&callback=totalPosts\\\"><\\\/script><script type=\\\"text\/javascript\\\" src=\\\"\/feeds\/comments\/default?alt=json-in-script&max-results=0&callback=totalComments\\\"><\\\/script>\');\r\n\/\/]]>\r\n      <\/script>\r\n    <\/div>\r\n  <\/b:includable>\r\n<\/b:widget>";
+}
+function tipstricksislandReset() {
+document.getElementsByName('colorbox')[0].value = "FFF"
+document.getElementsByName('colorboxh')[0].value = "FFF"
+document.getElementsByName('widget.bskin')[0].value = "Click on the Generate Button and Follow Instructions"
+document.getElementsByName('widget.content')[0].value = "Click on the Generate Button and Follow Instructions"
+}
+</script>
+<body>
+<div class="ttibox">
+             <h4 style='border:2px #CF152A dashed; background:white;'>NEW BLOGGER STATS COUNTER WITH HOVER EFFECT</h4>
+<br>
+<fieldset class='ttiredi' style='border:1px solid #7F9DB9;'>
+<legend class='ttiredi' align='center' style='border:2px solid #60F2DF;padding:3px 10px;margin-left:20px;background:#FFFFFF'><b>SETTINGS </b></legend>
+
+		<form align="center">
+
+			<table width="100%">
+
+                        <tr>
+<td width='70%'><label for='mdfontcolor'> Select Backgroud Colour</label></td>
+<td width='30%'>#<input class='jscolor text-input' type='text' id='mdfontcolor' name='colorbox' value='FFF' size='6'></td>
+
+</tr>
+						<br />
+						 <tr>
+<td width='70%'><label for='mdfontcolor'> Select Hover Backgroud Colour</label></td>
+<td width='30%'>#<input class='jscolor text-input' type='text' id='mdfontcolor' name='colorboxh' value='FFF' size='6'></td>
+</tr>
+                    </table>
+                    </fieldset>
+                
+                    <br>
+                   
+            <input value="Generate" style="font-size:16px;width:115px;line-height:25px;font-weight:bold;" onclick="javascript:tipstricksislandcodegen();" type="button">
+            <input value="Reset" style="font-size:16px;width:115px;line-height:25px;font-weight:bold;" onclick="javascript:tipstricksislandReset();" type="button">
+<br>
+<fieldset style="background:#1a7557;"><legend class='ttiredi' style='border:2px solid #60F2DF;padding:3px 10px;margin-left:20px;background:#FFFFFF'><b>CSS CODE</b></legend>
+<textarea name="widget.bskin" onfocus="this.select()" onmouseover="this.focus()" onclick="this.focus();this.select()" style="background:#ffffff;width:100%;height:100px;'" readonly="readonly">Click on the Generate Button and Follow Instructions</textarea>
+<br />
+<legend class='ttiredi' style='border:2px solid #60F2DF;padding:3px 10px;margin-left:20px;background:#FFFFFF'><b>HTML CODE</b></legend>
+<textarea name="widget.content" onfocus="this.select()" onmouseover="this.focus()" onclick="this.focus();this.select()" style="background:#ffffff;width:100%;height:100px;'" readonly="readonly">Click on the Generate Button and Follow Instructions</textarea></fieldset>
+</form>
+
+<div class="ttibox" style="background:white; font-size:14px;"> Copyright &#169; 2013 All Rights Strictly Reversed By <a href="http://plus.google.com/107999810544634403869">M Ehsan Qureshi</a> <br />@ <a href="http://www.tipstricksisland.com/">Free Tips Tricks by RAZ</a><div>
+</body>
+</html>
