@@ -1,3 +1,4 @@
+$(document).ready(function(){
 $(window).load(function(){   
 if (document.referrer.search('https://p001.netlify.com/')==0){
     $( ".tpwa" ).each(function() {
@@ -10,3 +11,4 @@ if (document.referrer.search('https://p001.netlify.com/')==0){
        });
 }
     });
+});
