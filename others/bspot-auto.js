@@ -51,7 +51,6 @@ var ranALink13 = ALink13[parseInt(Math.random()*ALink13.length)];
 var ranALink14 = ALink14[parseInt(Math.random()*ALink14.length)];
 var ranALink15 = ALink15[parseInt(Math.random()*ALink15.length)];
 var ranALink16 = ALink16[parseInt(Math.random()*ALink16.length)];
-var ranVidLink = VidLink[parseInt(Math.random()*VidLink.length)];
 var imgALinksrc = document.getElementById('imgALinksrc');
 var imgALinksrc2 = document.getElementById('imgALinksrc2');
 var imgALinksrc3 = document.getElementById('imgALinksrc3');
